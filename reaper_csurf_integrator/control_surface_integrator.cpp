@@ -1563,6 +1563,7 @@ void Manager::InitActionsDictionary()
     actions_["TrackUniqueSelect"] =                 new TrackUniqueSelect();
     actions_["TrackRangeSelect"] =                  new TrackRangeSelect();
     actions_["TrackRecordArm"] =                    new TrackRecordArm();
+    actions_["TrackRecordArmDisplay"] =             new TrackRecordArmDisplay();
     actions_["TrackMute"] =                         new TrackMute();
     actions_["TrackSolo"] =                         new TrackSolo();
     actions_["ClearAllSolo"] =                      new ClearAllSolo();
